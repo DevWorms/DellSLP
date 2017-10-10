@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>DELL EMC 2017</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,600|Roboto:300,400,600" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.css">
+
+		<link rel="stylesheet" type="text/css" href="../css/animate.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/tahero-2.0.0.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="col-xs-6 col-sm-6 col-md-6 text-center header-logo-container">
+				<img src="../img/logo-dell-emc.png">
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-6 text-center header-logo-container">
+				<img src="../img/logo-intel.png">
+			</div>
+		</div>
+	</header>
+
+		<img class="video-header-img" src="../img/video-header.png">
+
+	<!-- HEADER VIDEO -->
+	<div id="video_header_container">
+		<div id="video_header" class="video-header">
+			<div class="video-header-canvas-container">
+				<canvas id="video_header_canvas" class="video-header-canvas"></canvas>
+			</div>
+			<img id="video_header_img" class="video-header-img" src="../img/video-header.png">
+	  		<!--
+	  		<div class="video-header-background"></div>
+			<div class="container">
+				<h1>IT TRANSFORMATION<br>ROADSHOW Bajío<br>ELEVATE YOUR TRANSFORMATION<br>ROADSHOW</h1>
+			</div>
+			-->
+		</div>
+	</div>
+	<!-- END HEADER VIDEO -->
+
+	<!-- DESCRIPTION -->
+	<div class="description">
+		<div class="container">
+			<div class="col-xs-12 col-md-5 text-center">
+				<img class="img-responsive" nvs-animation-type="bounceInLeft" src="../img/edificio.jpg">
+			</div>
+			<div class="col-xs-12 col-md-7 description-text">
+				<div class="col-xs-12 col-md-12" nvs-animation-type="bounceInRight">
+					<p>Dell EMC, Intel y el Ecosistema de Partners le invitan a un gran viaje por la nube donde compartiremos con usted nuestra visión ante los retos de la transformación digital, la nueva revolución industrial y la adopción de tecnologías disruptivas en el nuevo entorno macro económico global.</p>
+					<p>Uno de los retos que todos los ejecutivos de IT enfrentan es cómo mantener aplicaciones tradicionales y de misión crítica y al mismo tiempo desarrollar aplicaciones orientadas a ambientes virtuales, cómputo en la nube y 3ª plataforma.</p>
+					<p>Ante esas realidades actuales una estrategia de Transformación de IT resulta por demás oportuna y necesaria, pues estas tendencias y cambios ocurrirán con o sin nosotros. En este orden de ideas Dell EMC y su Ecosistema de Partners pueden habilitarle en las etapas de modernización y automatización que le traerán como resultado la modernización de su infraestructura orientándola aún más a resultados de negocio.</p>
+					<p>Usted es muy importante para nosotros y queremos mantenernos cercanos a su empresa, sus retos y su innovación. Permítanos apoyarle en esta etapa de grande.</p>
+
+					<p><a class="description-hashtag" href="https://twitter.com/hashtag/ViajePorLaNube?f=tweets&src=hash" target="_blank">#ViajeALaNube</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END DESCRIPTION -->
+
+	<!-- LOGO -->
+	<div class="logos">
+		<div class="container text-center">
+						<div>
+				<h4 class="subtitle-border" nvs-animation-type="bounceInDown">Ecosistema de Partners Zona Bajío</h4>
+			</div>
+
+			<img class="img-responsive" nvs-animation-type="bounceInUp" src="../img/logo-telecomo.jpg">
+			<img class="img-responsive" nvs-animation-type="bounceInUp" src="../img/logo-nova.png">
+			<img class="img-responsive" nvs-animation-type="bounceInUp" src="../img/logo-disc.png">
+			<img class="img-responsive" nvs-animation-type="bounceInUp" src="../img/logo-eti.png">
+					</div>
+	</div>
+	<!-- END LOGOS -->
+
+	<!-- EVENTOS -->
+	<div class="container event">
+				<a href="DellReplica-Bold.otf#map-bajio">
+			<div class="col-xs-12 col-md-6 event-text" nvs-animation-type="pulse">
+				<h4 class="event-title">IT TRANSFORMATION ROADSHOW Bajío</h4>
+				<p class="event-info">
+					23 y 24 de Junio<br>
+					<span>San Miguel De Allende, Gto.</span>
+				</p>
+			</div>
+			<div class="col-xs-12 col-md-6 text-center">
+				<img class="img-responsive" nvs-animation-type="fadeIn" src="../img/globos.jpg">
+			</div>
+		</a>
+			</div>
+	<!-- END EVENTOS -->
+
+	<!-- MAPS -->
+		<div id="map-bajio" class="container map">
+		<div class="col-xs-12 col-md-7 map-text" nvs-animation-type="bounceInLeft">
+			<h4 class="map-title">Hotel Casa Primavera</h4>
+			<p>Av. Real Salida a Querétaro #189-A,<br>Valle del Maiz, 37700<br>San Miguel de Allende, Gto.</p>
+			<p><b>Fecha registro del evento:</b> viernes, 23 de junio 2017<br>
+				<b>Hora de registro:</b> 13:00 hrs<br>
+				<b>Fecha cierre del evento:</b> sábado, 24 de junio 2017<br>
+				<b>Hora de cierre:</b> 13:00 hrs</p>
+		</div>
+		<div class="col-xs-12 col-md-1"></div>
+		<div class="col-xs-12 col-md-3 text-center">
+			<iframe nvs-animation-type="bounceInRight" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3727.1806619495496!2d-100.7330797!3d20.90505!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b5198c00f09c5%3A0x85b36d622f5967a1!2sHotel+Casa+Primavera!5e0!3m2!1ses-419!2smx!4v1496881772211" width="100%" height="234" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<div class="col-xs-12 col-md-1"></div>
+	</div>
+		<!-- END MAPS -->
+
+	<!-- SPEAKERS -->
+		<div class="container speaker">
+		<h4 class="speaker-title" nvs-animation-type="pulse">Speaker: Macario Schettino</h4>
+		<h5 class="speaker-subtitle" nvs-animation-type="pulse">“2017: Enfrentar el reto”</h5>
+		<div class="col-xs-12 col-md-8 speaker-description" nvs-animation-type="bounceInLeft">
+			<p>
+				Profesor de la Escuela de Gobierno del Tec de Monterrey. Ingeniero Químico, maestro en economía, doctor en Administración, candidato a doctor en Historia. Ha sido directivo en instituciones académicas y medios de comunicación, asesor y consultor para partidos políticos, empresas y gobiernos, participa en la mesa semanal “Dinero y Poder”, en canal 11, y como analista en MVS noticias, Tercera emisión.Escribe la columna Fuera de la Caja, en El Financiero, y ha escrito dos decenas de libros, los más recientes, El Fin de la Confusión y Economía en un Día, ambos con editorial Paidós.
+			</p>
+		</div>
+		<div class="col-xs-12 col-md-4 speaker-photo text-center" nvs-animation-type="bounceInRight">
+			<img class="img-responsive" src="../img/speaker-macario-schettino.jpg">
+		</div>
+	</div>
+		<!-- END SPEAKERS -->
+
+	<!-- AGENT -->
+		<div class="container agent">
+		<h4 class="agent-title" nvs-animation-type="pulse">AGENDA</h4>
+
+		<div class="col-xs-12 col-md-6" nvs-animation-type="slideInUp">
+			<h5 class="agent-event-title">23 de Junio</h5>
+			<table class="agent-events-table">
+				<thead>
+					<tr>
+						<th>Hora</th>
+						<th>Actividad</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>13:00 a 14:00</td>
+						<td>Check -in</td>
+					</tr>
+					<tr>
+						<td>14:30 a 16:00</td>
+						<td>Comida | Mensaje de bienvenida</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>Presentación: Macario Schettino</td>
+					</tr>
+					<tr>
+						<td>16:00 a 18:40</td>
+						<td>Tiempo Libre</td>
+					</tr>
+					<tr>
+						<td>18:40 a 19:00</td>
+						<td>Salida a Restaurante Moxi</td>
+					</tr>
+					<tr>
+						<td>19:00 a 21:00</td>
+						<td>Cena en Restaurante Moxi</td>
+					</tr>
+					<tr>
+						<td>21:00 a 21:30</td>
+						<td>Traslado a Hotel Casa Primavera</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="col-xs-12 col-md-6" nvs-animation-type="slideInUp">
+			<h5 class="agent-event-title">24 de Junio</h5>
+			<table class="agent-events-table">
+				<thead>
+					<tr>
+						<th>Hora</th>
+						<th>Actividad</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>06:00 a 06:15</td>
+						<td>Reunión en Lobby Casa Primavera</td>
+					</tr>
+					<tr>
+						<td>6:15 a 06:30</td>
+						<td>Salida al Globopuerto</td>
+					</tr>
+					<tr>
+						<td>06:30 a 08:00</td>
+						<td>#ViajeALaNube en Globo</td>
+					</tr>
+					<tr>
+						<td>08:00 a 8:30</td>
+						<td>Traslado a Casa Primavera</td>
+					</tr>
+					<tr>
+						<td>8:30 a 10:30</td>
+						<td>Desayuno | Agradecimiento</td>
+					</tr>
+					<tr>
+						<td>11:30 a 12:00</td>
+						<td>Ckeck - out</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+		<!-- END SPEAKERS -->
+
+	<!-- FORM -->
+	<div class="container text-center form-registration-title">
+		<div>
+			<h4 class="subtitle-border white" nvs-animation-type="bounce">REGISTRE AQUÍ SU PARTICIPACIÓN</h4>
+		</div>
+	</div>
+	<!-- END FORM -->
+
+	<div class="form-registration">
+		<div class="container" nvs-animation-type="bounceInUp">
+			<form id="form_registration" name="form_registration" action="http://www.eventosdellemc.com/register/bajio" class="form-step" method="post">
+					
+				<div class="form-group">
+									<input type="hidden" name="__token" id="registration___token" value="f114f62c61a778945e6ba18e5dd1972c" 		
+				
+	
+			autocomplete="off"
+			class="form-control"
+	 required >
+	
+							
+				</div>
+
+					<div 		
+	
+	
+			class=""
+	>
+		<div class="col-xs-12 col-md-4 text-right">
+						<label 		
+	
+	
+			for="registration_name"
+			class=""
+	>Nombre: <abbr class="required">*</abbr></label>
+	
+		</div>
+		<div class="col-xs-12 col-md-5 form-group">
+							<input type="text" name="registration[name]" id="registration_name" value="" 		
+				
+	
+			autocomplete="off"
+			class="form-control"
+	 required >
+	
+					
+		</div>
+	</div>
+
+					<div 		
+	
+	
+			class=""
+	>
+		<div class="col-xs-12 col-md-4 text-right">
+						<label 		
+	
+	
+			for="registration_lastname"
+			class=""
+	>Apellido: <abbr class="required">*</abbr></label>
+	
+		</div>
+		<div class="col-xs-12 col-md-5 form-group">
+							<input type="text" name="registration[lastname]" id="registration_lastname" value="" 		
+				
+	
+			autocomplete="off"
+			class="form-control"
+	 required >
+	
+					
+		</div>
+	</div>
+
+					<div 		
+	
+	
+			class=""
+	>
+		<div class="col-xs-12 col-md-4 text-right">
+						<label 		
+	
+	
+			for="registration_age"
+			class=""
+	>Edad: <abbr class="required">*</abbr></label>
+	
+		</div>
+		<div class="col-xs-12 col-md-5 form-group">
+							<input type="text" name="registration[age]" id="registration_age" value="" 		
+				
+	
+			autocomplete="off"
+			data-format="only-digits"
+			class="form-control"
+	 required >
+	
+					
+		</div>
+	</div>
+
+					<div 		
+	
+	
+			class=""
+	>
+		<div class="col-xs-12 col-md-4 text-right">
+						<label 		
+	
+	
+			for="registration_company"
+			class=""
+	>Empresa de donde nos visita: <abbr class="required">*</abbr></label>
+	
+		</div>
+		<div class="col-xs-12 col-md-5 form-group">
+							<input type="text" name="registration[company]" id="registration_company" value="" 		
+				
+	
+			autocomplete="off"
+			class="form-control"
+	 required >
+	
+					
+		</div>
+	</div>
+
+					<div 		
+	
+	
+			class=""
+	>
+		<div class="col-xs-12 col-md-4 text-right">
+						<label 		
+	
+	
+			for="registration_workstation"
+			class=""
+	>Cargo: <abbr class="required">*</abbr></label>
+	
+		</div>
+		<div class="col-xs-12 col-md-5 form-group">
+							<input type="text" name="registration[workstation]" id="registration_workstation" value="" 		
+				
+	
+			autocomplete="off"
+			class="form-control"
+	 required >
+	
+					
+		</div>
+	</div>
+
+					<div 		
+	
+	
+			class=""
+	>
+		<div class="col-xs-12 col-md-4 text-right">
+						<label 		
+	
+	
+			for="registration_state"
+			class=""
+	>Entidad Federativa: <abbr class="required">*</abbr></label>
+	
+		</div>
+		<div class="col-xs-12 col-md-5 form-group">
+								<select name="registration[state]" id="registration_state" 		
+				
+	
+			autocomplete="off"
+			class="form-control"
+	 required >
+					<option value="" selected>Seleccionar</option>
+					<option value="Aguascalientes" >Aguascalientes</option>
+					<option value="Baja California" >Baja California</option>
+					<option value="Baja California Sur" >Baja California Sur</option>
+					<option value="Campeche" >Campeche</option>
+					<option value="Chiapas" >Chiapas</option>
+					<option value="Chihuahua" >Chihuahua</option>
+					<option value="Ciudad de México" >Ciudad de México</option>
+					<option value="Coahuila" >Coahuila</option>
+					<option value="Colima" >Colima</option>
+					<option value="Durango" >Durango</option>
+					<option value="Estado de México" >Estado de México</option>
+					<option value="Guanajuato" >Guanajuato</option>
+					<option value="Guerrero" >Guerrero</option>
+					<option value="Hidalgo" >Hidalgo</option>
+					<option value="Jalisco" >Jalisco</option>
+					<option value="Michoacán" >Michoacán</option>
+					<option value="Morelos" >Morelos</option>
+					<option value="Nayarit" >Nayarit</option>
+					<option value="Nuevo León" >Nuevo León</option>
+					<option value="Oaxaca" >Oaxaca</option>
+					<option value="Puebla" >Puebla</option>
+					<option value="Querétaro" >Querétaro</option>
+					<option value="Quintana Roo" >Quintana Roo</option>
+					<option value="San Luis Potosí" >San Luis Potosí</option>
+					<option value="Sin Localidad" >Sin Localidad</option>
+					<option value="Sinaloa" >Sinaloa</option>
+					<option value="Sonora" >Sonora</option>
+					<option value="Tabasco" >Tabasco</option>
+					<option value="Tamaulipas" >Tamaulipas</option>
+					<option value="Tlaxcala" >Tlaxcala</option>
+					<option value="Veracruz" >Veracruz</option>
+					<option value="Yucatán" >Yucatán</option>
+					<option value="Zacatecas" >Zacatecas</option>
+			</select>
+
+	
+					
+		</div>
+	</div>
+
+					<div 		
+	
+	
+			class=""
+	>
+		<div class="col-xs-12 col-md-4 text-right">
+						<label 		
+	
+	
+			for="registration_phone"
+			class=""
+	>Teléfono: <abbr class="required">*</abbr></label>
+	
+		</div>
+		<div class="col-xs-12 col-md-5 form-group">
+							<input type="text" name="registration[phone]" id="registration_phone" value="" 		
+				
+	
+			autocomplete="off"
+			data-format="only-digits"
+			class="form-control"
+			minlength="10"
+			maxlength="10"
+	 required >
+	
+					
+		</div>
+	</div>
+
+					<div 		
+	
+	
+			class=""
+	>
+		<div class="col-xs-12 col-md-4 text-right">
+						<label 		
+	
+	
+			for="registration_phone_ext"
+			class=""
+	>Ext:</label>
+	
+		</div>
+		<div class="col-xs-12 col-md-5 form-group">
+							<input type="text" name="registration[phone_ext]" id="registration_phone_ext" value="" 		
+				
+	
+			autocomplete="off"
+			data-format="only-digits"
+			class="form-control"
+	  >
+	
+					
+		</div>
+	</div>
+
+					<div 		
+	
+	
+			class=""
+	>
+		<div class="col-xs-12 col-md-4 text-right">
+						<label 		
+	
+	
+			for="registration_mobile"
+			class=""
+	>Celular: <abbr class="required">*</abbr></label>
+	
+		</div>
+		<div class="col-xs-12 col-md-5 form-group">
+							<input type="text" name="registration[mobile]" id="registration_mobile" value="" 		
+				
+	
+			autocomplete="off"
+			data-format="only-digits"
+			class="form-control"
+			minlength="10"
+			maxlength="10"
+	 required >
+	
+					
+		</div>
+	</div>
+
+					<div 		
+	
+	
+			class=""
+	>
+		<div class="col-xs-12 col-md-4 text-right">
+						<label 		
+	
+	
+			for="registration_email"
+			class=""
+	>Correo: <abbr class="required">*</abbr></label>
+	
+		</div>
+		<div class="col-xs-12 col-md-5 form-group">
+							<input type="email" name="registration[email]" id="registration_email" value="" 		
+				
+	
+			autocomplete="off"
+			class="form-control"
+			data-pattern="^[A-Za-z0-9-_.+%]+@[A-Za-z0-9-.]+\.[A-Za-z]{2,4}$"
+			data-pattern-error="Por favor, escriba una dirección de correo válida"
+	 required >
+	
+					
+		</div>
+	</div>
+
+					<div 		
+	
+	
+			class=""
+	>
+		<div class="col-xs-12 col-md-4 text-right">
+						<label 		
+	
+	
+			for="registration_weight"
+			class=""
+	>Peso (Kg): <abbr class="required">*</abbr></label>
+	
+		</div>
+		<div class="col-xs-12 col-md-5 form-group">
+							<input type="text" name="registration[weight]" id="registration_weight" value="" 		
+				
+	
+			autocomplete="off"
+			data-format="only-digits"
+			class="form-control"
+	 required >
+	
+					
+		</div>
+	</div>
+
+					<div 		
+	
+	
+			class=""
+	>
+		<div class="col-xs-12 col-md-4 text-right">
+						<label 		
+	
+	
+			for="registration_company_partner"
+			class=""
+	>Empresa Partner quien lo invita: <abbr class="required">*</abbr></label>
+	
+		</div>
+		<div class="col-xs-12 col-md-5 form-group">
+								<select name="registration[company_partner]" id="registration_company_partner" 		
+				
+	
+			autocomplete="off"
+			class="form-control"
+	 required >
+					<option value="" selected>Seleccionar</option>
+					<option value="NOVAMEDIA" >NOVAMEDIA</option>
+					<option value="TELECOMO" >TELECOMO</option>
+					<option value="DISC" >DISC</option>
+					<option value="ESTRATEGIA TI" >ESTRATEGIA TI</option>
+			</select>
+
+	
+					
+		</div>
+	</div>
+
+				<div class="clear-both">
+					<div class="col-xs-12 col-md-4">
+					</div>
+					<div class="col-xs-12 col-md-4 text-center">
+											<button type="submit" name="registration[submit]" id="registration_submit" 		
+				
+	
+			autocomplete="off"
+			class="btn btn-blue"
+	>Registro</button>
+
+	
+					</div>
+					<div class="col-xs-12 col-md-4">
+					</div>
+				</div>
+			</form>	
+		</div>
+	</div>
+
+	<div class="form-success hidden">
+		<div class="container text-center">
+			<h4>¡BIENVENIDO A LA TRANSFORMACIÓN!</h4>
+			<p>En breve nos comunicaremos para realizar su confirmación al evento.</p>
+			<p class="p-small">
+				Si necesita asistencia personalizada, comuníquese en:<br>
+				<a href="mailto:dellemc@mbaconsulting.com.mx">dellemc@mbaconsulting.com.mx</a><br>
+				o al tel: <a href="tel:+52015525910325">01 55 2591 0325</a>
+			</p>
+		</div>
+	</div>
+
+	<!-- FORM -->
+	<footer class="text-center">
+		<div class="container footer-titles-colums">
+			<div class="col-xs-12  col-md-4 footer-colum footer-colum-mark">
+				MODERNICE
+			</div>
+			<div class="col-xs-12  col-md-4 footer-colum footer-colum-mark">
+				AUTOMATICE
+			</div>
+			<div class="col-xs-12  col-md-4 footer-colum">
+				TRANSFORME
+			</div>
+		</div>
+		<div class="container">
+			<div class="col-xs-12 col-md-4 text-left">
+				<img class="img-responsive" src="../img/logo-dell-emc-footer.png">
+			</div>
+			<div class="col-xs-12  col-md-4">
+				Únase a la coversación digital en:<br>
+				<a href="http://twitter.com/DELLEMC" target="_blank">@DELLEMC</a> <a href="http://twitter.com/DELLEMCPartners" target="_blank">@DELLEMCPartners</a><br>
+				<a href="http://www.eventosdellemc.com/o_templates/default/fonts/dellemc.com/partner" target="_blank">dellemc.com/partner</a>
+			</div>
+			<div class="col-xs-12  col-md-4 text-white terms-link">
+				Clic <a href="http://contenido.neored.com/mba-consulting/aviso-privacidad-mba-consulting.pdf" target="_blank">aqui</a> para ver nuestra politica de privacidad.
+			</div>
+		</div>
+	</footer>
+	<!-- END FORM -->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+		<script type="text/javascript" src="../js/animation-on-screen.js"></script>
+	<script type="text/javascript" src="../js/jquery.vide.js"></script>
+	<script type="text/javascript" src="../js/form-valid.js"></script>
+	<script type="text/javascript" src="../js/canvas-video-player.js"></script>
+	<script type="text/javascript" src="../js/tahero.js"></script>
+
+			<script type="text/javascript">
+			var videoPath = "http://www.eventosdellemc.com/o_templates/default/video/Bienvenida-San-Miguel-Dell";
+		</script>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+/* Medias para la descricpion y colocar el mapa */
+@media screen and (max-width: 992px)
+{
+    div#descripcion_sup992
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 993px)
+{
+    div#descripcion_min992
+    {
+        display: none;
+    }
+}
+.estilo_info_perfilUno
+{
+	margin-left: -190px;
+    position: inherit;
+}
+

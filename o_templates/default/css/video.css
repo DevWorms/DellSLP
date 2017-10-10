@@ -1,0 +1,304 @@
+#bgvideo
+{
+    width: 100%;
+
+    align-items: center;
+}
+#letraVideoMayor750
+{
+    font-size: 40px;
+
+    position: absolute;
+    z-index: 1;
+    top: 55px;
+    left: 0;
+
+    width: 750px;
+    padding: 20px;
+
+    transform: translateX(-50%) translateY(-50%);
+    letter-spacing: 26px;
+
+    color: #15a6df;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .82);
+}
+
+#letraVideomenor1000
+{
+    font-size: 27px;
+
+    position: absolute;
+    z-index: 1;
+    top: 62px;
+    left: 260%;
+
+    width: 750px;
+    padding: 20px;
+
+    transform: translateX(-50%) translateY(-50%);
+    letter-spacing: 26px;
+
+    color: #15a6df;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, .82);
+}
+
+.fondoLetraVideo
+{
+    position: absolute;
+    z-index: 1;
+    top: 329px;
+    left: 37%;
+
+    padding: 20px;
+
+    transform: translateX(-50%) translateY(-50%);
+
+    border-radius: 30px;
+    background: rgba(0, 0, 0, .82);
+}
+
+.fondoLetraVideoMenos1000
+{
+    position: absolute;
+    z-index: 1;
+    top: 354px;
+    left: 40%;
+
+    padding: 20px;
+
+    transform: translateX(-50%) translateY(-50%);
+
+    border-radius: 30px;
+    background: rgba(0, 0, 0, .82);
+}
+
+#letraVideoMenor750
+{
+    font-size: 21px;
+
+    color: white;
+}
+.letraSegunda
+{
+    font-size: 19px;
+    font-weight: normal;
+    font-style: normal;
+
+    letter-spacing: normal;
+
+    color: white;
+}
+
+/* Letras alado de la foto 750*/
+@media screen and (max-width: 750px)
+{
+    div#letraVideoMayor750
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 751px)
+{
+    div#letraVideoMenor750
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    div#letraVideoMenor750
+    {
+        display: none;
+    }
+}
+/* Registro y opacidad del título*/
+
+@media screen and (max-width: 1050px)
+{
+    a#registro_920Max
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1051px)
+{
+    a#registro_920Min
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 830px)
+{
+    a#registro_920Min
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 831px)
+{
+    a#registro_580n
+    {
+        display: none;
+    }
+}
+
+
+/* Medias de los mensajes */
+
+@media screen and (max-width: 1050px)
+{
+    div#mensaje1000
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1051px)
+{
+    div#mensaje1000Menos
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 830px)
+{
+    div#mensaje1000Menos
+    {
+        display: none;
+    }
+}
+
+.fly-in-text
+{
+    transition: all 2.5s ease;
+
+    opacity: 1;
+}
+
+.desa
+{
+    opacity: 0;
+}
+
+.video_registro920Max
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-size: 26.02px;
+
+    position: absolute;
+    top: 648px;
+    left: 25%;
+
+    display: inline-block;
+
+    margin: 4px 2px;
+    padding: 15px 32px;
+
+    cursor: pointer;
+    -webkit-transition: all 200ms linear;
+         -o-transition: all 200ms linear;
+            transition: all 200ms linear;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
+
+    color: #15a6df;
+    border: solid #15a6df;
+    background-color: black;
+}
+
+.video_registro920min
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-size: 26.02px;
+
+    position: absolute;
+    top: 187px;
+    left: 64%;
+
+    display: inline-block;
+
+    margin: 4px 2px;
+    padding: 15px 32px;
+
+    cursor: pointer;
+    -webkit-transition: all 200ms linear;
+         -o-transition: all 200ms linear;
+            transition: all 200ms linear;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
+
+    color: #15a6df;
+    border: solid #15a6df;
+    background-color: black;
+}
+
+.video_registro580
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+
+    position: absolute;
+    top: 239px;
+    left: 50%;
+
+    display: inline-block;
+
+    margin: 4px 2px;
+    padding: 15px 32px;
+
+    cursor: pointer;
+    -webkit-transition: all 200ms linear;
+         -o-transition: all 200ms linear;
+            transition: all 200ms linear;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
+
+    color: #15a6df;
+    border: solid #15a6df;
+    background-color: black;
+}
+
+.textoOctubre
+{
+    letter-spacing: 3px;
+}
+
+.textoGuad
+{
+    letter-spacing: 3px;
+
+    color: white;
+}
+
+.video_registro920Max:hover,
+.video_registro920Max:focus
+.video_registro920min:hover,
+.video_registro920min:focus
+.video_registro580:hover,
+.video_registro580:focus
+{
+    padding: 13px 28px;
+
+    text-decoration: none;
+}
+
+.delay
+{
+    animation-delay: 4.2s;
+}
