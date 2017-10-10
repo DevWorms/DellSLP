@@ -16,7 +16,44 @@
 }
 .estilo_info_perfilUno
 {
-	margin-left: -190px;
     position: inherit;
+
+    margin-left: -190px;
 }
 
+.line span
+{
+    display: block;
+    float: left;
+
+    width: 20%;
+    height: 10px;
+}
+.line
+{
+    width: 100%;
+}
+.color-1
+{
+    background: #5d387f;
+}
+.color-2
+{
+    background: #92beb9;
+}
+.color-3
+{
+    background: #c6d355;
+}
+.color-4
+{
+    background: #e7b649;
+}
+.color-5
+{
+    background: #c22d46;
+}
+
+.morado {
+    color: #5d387f;
+}
