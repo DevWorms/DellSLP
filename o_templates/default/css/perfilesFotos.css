@@ -89,11 +89,43 @@
 
     display: inline;
 
-    width: 70%;
+    width: 27%;
     padding: 15px 10px 15px 0;
 
     background-color: rgba(0, 0, 0, .6);
 }
+
+.overlay-div_des
+{
+    position: absolute;
+    top: 0;
+    left: 15px;
+
+    display: inline;
+
+    width: 45%;
+    height: 522px;
+    padding: 15px 25px;
+
+    color: white;
+    background-color: rgba(208, 32, 70, .5);;
+}
+
+.overlay-div_des .des-overlay_title
+{
+    font-size: 26px;
+}
+
+.overlay-div_des .des-overlay_subtitle
+{
+    font-size: 20px;
+}
+
+.overlay-div_des .des-overlay_p
+{
+    font-size: 15px;
+}
+
 
 @media screen and (max-width: 500px)
 {
@@ -104,4 +136,10 @@
 
         width: 100%;
     }
+}
+
+.description-img
+{
+    width: 100%;
+    height: 522px;
 }
