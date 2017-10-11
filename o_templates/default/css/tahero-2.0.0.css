@@ -228,6 +228,13 @@ header img
     vertical-align: middle;
 }
 
+@media screen and (max-width: 500px){
+    .logos .img-responsive
+    {
+        margin: 0;
+    }  
+}
+
 .event-title
 {
     font-family: 'DellReplica Light', 'Roboto', sans-serif;

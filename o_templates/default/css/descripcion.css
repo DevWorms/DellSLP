@@ -71,6 +71,26 @@
     margin-bottom: -6px;
 }
 
+.container-mov {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logos-row {
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 500px){
+    .container-mov {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .logos-row {
+        margin: 20px;
+    }
+}
+
 .space-bottom-20
 {
     margin-bottom: 20px;

@@ -153,6 +153,29 @@
 
         width: 100%;
     }
+
+    .overlay-div_des
+    {
+        left: 0;
+    }
+    .overlay-div_des .des-overlay_title
+    {
+        font-size: 18px;
+    }
+
+    .overlay-div_des .des-overlay_subtitle
+    {
+        font-size: 15px;
+    }
+
+    .overlay-div_des .des-overlay_p
+    {
+        font-size: 12px;
+    }
+
+    .logo1-movil {
+        width: 120px;
+    }
 }
 
 .description-img
