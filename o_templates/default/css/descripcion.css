@@ -73,6 +73,11 @@
     margin-bottom: 10px;
 }
 
+table.table-special {
+    font-size: 15px;
+    margin-top: 70px;
+}
+
 .line span
 {
     display: block;

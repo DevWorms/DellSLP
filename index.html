@@ -286,19 +286,68 @@
     </div>
     <!-- END DETALLES DEL EVENTO (MAPA) -->
   
+    <!-- LINEUP SPEAKERS -->
     <div class="container">
       <div class="row">
         <img class="img-responsive" nvs-animation-type="fadeIn" src="o_templates/default/img/Speaker-Dell-EMC-SLP_3.png">
       </div>
     </div>
-    
-    <div class="container">
+    <!-- END LINEUP SPEAKERS -->
+
+    <!-- AGENDA -->
+    <div class="container-special">
       <div class="row">
-        <img class="img-responsive" nvs-animation-type="fadeIn" src="o_templates/default/img/Agenda_SLP.png">
+        <img class="img-responsive agenda-img" nvs-animation-type="fadeIn" src="o_templates/default/img/laedu.jpg">
+        <div class="col-xs-offset-6 col-xs-6">
+          <div class="overlay-div_agenda">
+            
+            <div class="row" align="center">
+              <h1 class="white" nvs-animation-type="bounceInDown">AGENDA</h1>
+              <div class="col-xs-6 col-xs-offset-3">
+                <div nvs-animation-type="bounceInDown" class="line">
+                  <span class="color-1"></span>
+                  <span class="color-2"></span>
+                  <span class="color-3"></span>
+                  <span class="color-4"></span>
+                  <span class="color-5"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="row" align="center">
+              <div class="col-xs-offset-2 col-xs-8">
+                <table class="table table-condensed table-special">
+                  <tr class="color-1">
+                    <td>18:00 a 18:30</td>
+                    <td>Registro</td>
+                  </tr>
+                  <tr class="color-4">
+                    <td>18:30 a 19:30</td>
+                    <td>Mensaje de Bienvenida/Cena</td>
+                  </tr>
+                  <tr class="color-1">
+                    <td>19:30 a 20:20</td>
+                    <td>Speaker Dell EMC</td>
+                  </tr>
+                  <tr class="color-2">
+                    <td>20:30 a 21:00</td>
+                    <td>NetWorking Showroom</td>
+                  </tr>
+                  <tr class="color-1">
+                    <td>21:00</td>
+                    <td>Fin del Evento</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
     </div>
+    <!-- END AGENDA -->
 
-
+    <!-- FORM -->
     <div class="form-registration">
       <div class="container" nvs-animation-type="bounceInUp">
         <div class="logos">
@@ -332,9 +381,9 @@
         </script>
       </div>
     </div>
-   
+   <!-- END FORM -->
 
-    <!-- FORM -->
+    
     <footer class="text-center">
       <div class="container footer-titles-colums">
         <div class="col-xs-12  col-md-4 footer-colum footer-colum-mark">
@@ -358,7 +407,6 @@
             target="_blank">aqui</a> para ver nuestra politica de privacidad. </div>
       </div>
     </footer>
-    <!-- END FORM -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="o_templates/default/js/bootstrap.min.js"></script>
@@ -367,9 +415,11 @@
     <script type="text/javascript" src="o_templates/default/js/form-valid.js"></script>
     <script type="text/javascript" src="o_templates/default/js/canvas-video-player.js"></script>
     <script type="text/javascript" src="o_templates/default/js/tahero.js"></script>
+    
     <script type="text/javascript">
 			var videoPath = "http://www.eventosdellemc.com/o_templates/default/video/Bienvenida-San-Miguel-Dell";
 		</script>
+    
     <script>
       $(document).ready(function() {
         
@@ -404,7 +454,7 @@
             }
         });
       });
-/*
+      /*
       $(function() {
                 
         setTimeout(function() {
@@ -412,25 +462,24 @@
         }, 10000);
                 
       })();
-*/
+      */
 
-setTimeout(function() {
-  $('#mensaje1000').removeClass('desa'); 
-}, 4000);
+      setTimeout(function() {
+        $('#mensaje1000').removeClass('desa'); 
+      }, 4000);
 
-setTimeout(function() {
-  $('#mensaje1000').addClass('desa');
-}, 15000);
+      setTimeout(function() {
+        $('#mensaje1000').addClass('desa');
+      }, 15000);
 
 
-setTimeout(function() {
-  $('#mensaje1000Menos').removeClass('desa'); 
-}, 4000);
+      setTimeout(function() {
+        $('#mensaje1000Menos').removeClass('desa'); 
+      }, 4000);
 
-setTimeout(function() {
-  $('#mensaje1000Menos').addClass('desa');
-}, 15000);
-
+      setTimeout(function() {
+        $('#mensaje1000Menos').addClass('desa');
+      }, 15000);
     </script>
     <!-- ScrollDown hasta el formulario -->
     <script type="text/javascript">
