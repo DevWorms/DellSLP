@@ -84,8 +84,8 @@
 {
     position: absolute;
     z-index: 2;
-    top: 239px;
-    left: 50px;
+    top: 259px;
+    left: 68px;
 
     display: inline;
 
@@ -105,7 +105,7 @@
 
     width: 45%;
     height: 522px;
-    padding: 15px 25px;
+    padding: 20px 25px;
 
     color: white;
     background-color: rgba(208, 32, 70, .5);;
