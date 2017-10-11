@@ -194,6 +194,10 @@ header img
     background: transparent;
 }
 
+.detalles {
+    background-color: #91BEB9;
+}
+
 .subtitle-border
 {
     font-family: 'Roboto', sans-serif;
@@ -709,4 +713,13 @@ footer .terms-link
     overflow: hidden;
 
     width: 100%;
+}
+
+.container-special {
+    margin-right: auto;
+    margin-left: auto; 
+    
+    width: 100%;  
+
+    box-sizing: border-box;
 }

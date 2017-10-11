@@ -21,6 +21,48 @@
     margin-left: -190px;
 }
 
+.overlay-div .detalles-overlay_title
+{
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-left: 20px;
+
+    text-transform: uppercase;
+
+    color: #ffd220;
+    background-color: #1a1a1a;
+}
+
+.overlay-div .detalles-overlay_fecha
+{
+    font-size: 12px;
+    font-weight: 400;
+
+    display: block;
+
+    color: #fff;
+}
+
+.overlay-div .detalles-overlay_fecha2
+{
+    font-size: 10px;
+
+    color: #fff;
+}
+
+.overlay-div .detalles-overlay_icon
+{
+    width: 20px;
+    margin: 12px 22px;
+}
+
+.container-special .special-margins
+{
+    margin-top: 30px;
+    margin-bottom: -6px;
+}
+
 .line span
 {
     display: block;
@@ -54,6 +96,12 @@
     background: #c22d46;
 }
 
-.morado {
+.morado
+{
     color: #5d387f;
+}
+
+.white
+{
+    color: #fff;
 }

@@ -63,7 +63,7 @@
 
 .overlay-base-div
 {
-    position: absolute;
+    /*position: absolute;*/
     z-index: 1;
     top: 10px;
     left: 50px;
@@ -84,21 +84,24 @@
 {
     position: absolute;
     z-index: 2;
-    top: 250px;
+    top: 239px;
     left: 50px;
 
     display: inline;
 
     width: 70%;
     padding: 15px 10px 15px 0;
+
+    background-color: rgba(0, 0, 0, .6);
 }
 
-@media screen and (max-width: 500px){
-	.overlay-div
-	{
-		left: 0;
-		width: 100%;
-		top: 233px;
-	}
-	 
+@media screen and (max-width: 500px)
+{
+    .overlay-div
+    {
+        top: 233px;
+        left: 0;
+
+        width: 100%;
+    }
 }
