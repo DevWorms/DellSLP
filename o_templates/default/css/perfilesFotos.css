@@ -183,10 +183,12 @@
 {
     .overlay-div
     {
-        top: 238px;
         left: 0;
-
+        position: initial;
+        display: inline-table;
         width: 100%;
+        background: black;
+        margin-top: -5px;;
     }
 
     .overlay-div_des
