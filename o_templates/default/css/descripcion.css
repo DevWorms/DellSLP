@@ -1,19 +1,27 @@
-/* Medias para la descricpion y colocar el mapa */
-@media screen and (max-width: 992px)
+/*Media 1199 de la descripción (Títulol)*/
+
+@media screen and (max-width: 1199px)
 {
-    div#descripcion_sup992
+    #descripcion-titulo-1199min
     {
         display: none;
     }
 }
 
-@media screen and (min-width: 993px)
+@media screen and (min-width: 1200px)
 {
-    div#descripcion_min992
+    #descripcion-titulo-1199max
     {
         display: none;
     }
 }
+
+.descripcion_titulo
+{
+    font-size: 23px;
+}
+
+
 .estilo_info_perfilUno
 {
     position: inherit;
