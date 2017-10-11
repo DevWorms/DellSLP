@@ -125,7 +125,7 @@
     padding: 20px 25px;
 
     color: white;
-    background-color: rgba(255,0,0,.4);;
+    background-color: rgba(255,0,0,.4);
 }
 
 .overlay-div_des .des-overlay_title
@@ -143,6 +143,41 @@
     font-size: 15px;
 }
 
+@media screen and (max-width: 1200px)
+{
+    .overlay-div_des .des-overlay_title
+    {
+        font-size: 20px;
+    }
+
+    .overlay-div_des .des-overlay_subtitle
+    {
+        font-size: 15px;
+    }
+
+    .overlay-div_des .des-overlay_p
+    {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .overlay-div_des .des-overlay_title
+    {
+        font-size: 25px;
+    }
+
+    .overlay-div_des .des-overlay_subtitle
+    {
+        font-size: 20px;
+    }
+
+    .overlay-div_des .des-overlay_p
+    {
+        font-size: 17px;
+    }
+}
 
 @media screen and (max-width: 500px)
 {
@@ -173,7 +208,8 @@
         font-size: 12px;
     }
 
-    .logo1-movil {
+    .logo1-movil
+    {
         width: 120px;
     }
 }

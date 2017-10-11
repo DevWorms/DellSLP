@@ -21,12 +21,29 @@
     font-size: 23px;
 }
 
+.des-text{
+    font-size: 14px;
+    color: white;
+}
 
 .estilo_info_perfilUno
 {
     position: inherit;
 
     margin-left: -190px;
+}
+
+@media screen and (max-width: 1024px) {
+    .des-text{
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .des-text{
+        font-size: 15px;
+    }
 }
 
 .overlay-div .detalles-overlay_title
