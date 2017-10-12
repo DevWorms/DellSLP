@@ -64,6 +64,82 @@
     }
 }
 
+@media screen and (max-width: 875px)
+{
+    #agenda-img885-max
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 886px)
+{
+    #agenda-img885-min
+    {
+        display: none;        
+    }
+}
+
+@media screen and (max-width: 750px)
+{
+    #agenda-img885-min
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 751px)
+{
+    #agenda-img750-max
+    {
+        display: none;        
+    }
+}
+
+@media screen and (max-width: 550px)
+{
+    #agenda-img750-max
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 551px)
+{
+    #agenda-img750-min
+    {
+        display: none;        
+    }
+}
+
+
+.agenda-tamano-550
+{
+  width: 868px;
+  height: auto;
+  margin-top: 66px;
+  margin-left: -308px;
+  position: absolute;
+}
+
+.agenda-tamano-750
+{
+  width: 868px;
+  height: auto;
+  margin-top: 66px;
+  margin-left: -126px;
+  position: absolute;
+}
+
+.agenda-tamano-885
+{
+  width: 868px;
+  height: auto;
+  margin-top: 66px;
+  margin-left: -27px;
+  position: absolute;
+}
+
 .table-special-movil700
 {
     font-size: 12px;
