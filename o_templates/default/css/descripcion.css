@@ -4,91 +4,95 @@
 {
     #agenda-table
     {
-      display: none;
+        display: none;
     }
 }
 
 @media screen and (min-width: 835px)
 {
-  #agenda-table-700
-  {
-    display: none;
-  }
+    #agenda-table-700
+    {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 700px)
 {
     #agenda-table-700
     {
-      display: none;
+        display: none;
     }
 }
 
 @media screen and (min-width: 701px)
 {
-  #agenda-table-movil
-  {
-    display: none;
-  }
+    #agenda-table-movil
+    {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 550px)
 {
     #agenda-table-movil
     {
-      display: none;
+        display: none;
     }
 }
 
 @media screen and (min-width: 551px)
 {
-  #agenda-table-movil2
-  {
-    display: none;
-  }
+    #agenda-table-movil2
+    {
+        display: none;
+    }
 }
- 
+
 @media screen and (max-width: 433px)
 {
     #agenda-table-movil2
     {
-      display: none;
+        display: none;
     }
 }
 
 @media screen and (min-width: 434px)
 {
-  #agenda-table-movil3
-  {
-    display: none;
-  }
+    #agenda-table-movil3
+    {
+        display: none;
+    }
 }
 
 .table-special-movil700
 {
-  font-size: 12px;
-  margin-top: 25px;
+    font-size: 12px;
+
+    margin-top: 25px;
 }
 
 .table-special-movil
 {
-  font-size: 14px;
-  margin-top: 25px;/*
+    font-size: 14px;
+
+    margin-top: 25px;/*
   margin-left: -3px;*/
 }
 
 .table-special-movil2
 {
-  font-size: 12px; 
-  margin-top: 25px;
-  margin-left: -40%; 
+    font-size: 12px;
+
+    margin-top: 25px;
+    margin-left: -40%;
 }
 
 .table-special-movil3
 {
-  font-size: 8px;
-  margin-top: 25px;
-  margin-left: -66%;
+    font-size: 8px;
+
+    margin-top: 25px;
+    margin-left: -66%;
 }
 /*Media 1199 de la descripción (Títulol)*/
 
@@ -289,6 +293,10 @@ table.table-special
 {
     color: #fff;
 }
+.red
+{
+    color: #C22E47;
+}
 
 .caption-full
 {
@@ -397,17 +405,21 @@ table.table-special
 }
 
 
-@media screen and (max-width: 500px) {
-    .hexagon {
+@media screen and (max-width: 500px)
+{
+    .hexagon
+    {
         display: none;
     }
 
-    .lineup-special_row {
+    .lineup-special_row
+    {
         margin-top: 0;
     }
 
-    .container-lineup {
-        margin-bottom: 30px;
+    .container-lineup
+    {
         margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
