@@ -129,12 +129,31 @@ table.table-special {
     float: left;
 
     width: 20%;
-    height: 10px;
+    height: 7px;
 }
+
 .line
 {
-    width: 100%;
+    /*width: 100%;*/
+    width: 400px;
 }
+
+@media screen and (max-width: 800px){
+    .line
+    {
+        /*width: 100%;*/
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .line
+    {
+        /*width: 100%;*/
+        width: 300px;
+    }
+}
+
 .color-1
 {
     background: #5d387f;
@@ -155,12 +174,10 @@ table.table-special {
 {
     background: #c22d46;
 }
-
 .morado
 {
     color: #5d387f;
 }
-
 .white
 {
     color: #fff;
