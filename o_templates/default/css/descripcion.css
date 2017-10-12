@@ -473,3 +473,11 @@ table.table-special
         margin-top: -30px;
     }
 }
+
+@media (max-width: 500px) {
+    [nvs-animation-type] {
+        animation: none;
+        transform: none;
+        transition-property: none;
+    }
+}
