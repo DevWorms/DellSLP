@@ -1,133 +1,5 @@
 /* Agenda */
 
-@media screen and (max-width: 834px)
-{
-    #agenda-table
-    {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 835px)
-{
-    #agenda-table-700
-    {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 700px)
-{
-    #agenda-table-700
-    {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 701px)
-{
-    #agenda-table-movil
-    {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 550px)
-{
-    #agenda-table-movil
-    {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 551px)
-{
-    #agenda-table-movil2
-    {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 433px)
-{
-    #agenda-table-movil2
-    {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 434px)
-{
-    #agenda-table-movil3
-    {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 875px)
-{
-    #agenda-img885-max
-    {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 886px)
-{
-    #agenda-img885-min
-    {
-        display: none;        
-    }
-}
-
-@media screen and (max-width: 750px)
-{
-    #agenda-img885-min
-    {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 751px)
-{
-    #agenda-img750-max
-    {
-        display: none;        
-    }
-}
-
-@media screen and (max-width: 550px)
-{
-    #agenda-img750-max
-    {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 551px)
-{
-    #agenda-img750-min
-    {
-        display: none;        
-    }
-}
-
-@media screen and (max-width: 380px)
-{
-    #agenda-titulo380max
-    {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 381px)
-{
-    #agenda-titulo380min
-    {
-        display: none;        
-    }
-}
-
 .agenda-titulo-size
 {
   color: white;
@@ -352,6 +224,10 @@ table.table-special
         /*width: 100%;*/
         width: 350px;
     }
+
+    table.table-special {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 500px)
@@ -360,6 +236,11 @@ table.table-special
     {
         /*width: 100%;*/
         width: 300px;
+    }
+
+    table.table-special {
+        font-size: 13px;
+        margin-top: 30px;
     }
 }
 
@@ -512,6 +393,22 @@ table.table-special
     margin-top: -30px;
 }
 
+.agenda-max {
+    display: inherit;
+}
+
+.agenda-min {
+    display: none;
+}
+
+.container-agenda {
+    width: 100%;
+    height: auto;
+    padding: 20px 25px;
+    color: white;
+    background-color: rgba(255,0,0,.4);
+}
+
 @media screen and (max-width: 800px)
 {
     .hexagon.max-res
@@ -543,6 +440,14 @@ table.table-special
     .container-lineup
     {
         margin: 30px 40px;
+    }
+
+    .agenda-max {
+        display: none;
+    }
+
+    .agenda-min {
+        display: inherit;
     }
 }
 

@@ -116,7 +116,7 @@
     position: absolute;
     z-index: 1;
     top: 0;
-    right: 20px;
+    right: 0;
 
     display: inline;
 
@@ -158,6 +158,26 @@
     height: 500px;
 }
 
+#agenda-img_1140
+{
+    display: inherit;
+}
+
+#agenda-img_1024
+{
+    display: none;
+}
+
+#agenda-img_768
+{
+    display: none;
+}
+
+#agenda-img_425
+{
+    display: none;
+}
+
 @media screen and (max-width: 1200px)
 {
     .overlay-div_des .des-overlay_title
@@ -173,6 +193,26 @@
     .overlay-div_des .des-overlay_p
     {
         font-size: 13px;
+    }
+
+    #agenda-img_1140
+    {
+        display: none;
+    }
+
+    #agenda-img_1024
+    {
+        display: inherit;
+    }
+
+    #agenda-img_768
+    {
+        display: none;
+    }
+
+    #agenda-img_425
+    {
+        display: none;
     }
 }
 
@@ -191,6 +231,35 @@
     .overlay-div_des .des-overlay_p
     {
         font-size: 17px;
+    }
+
+    .agenda-img
+    {
+        position: inherit;
+        z-index: 0;
+
+        width: 100%;
+        height: 330px;
+    }
+
+    #agenda-img_1140
+    {
+        display: none;
+    }
+
+    #agenda-img_1024
+    {
+        display: none;
+    }
+
+    #agenda-img_768
+    {
+        display: inherit;
+    }
+
+    #agenda-img_425
+    {
+        display: none;
     }
 }
 
@@ -241,9 +310,38 @@
     {
         width: 150px;
     }
+    
+    .agenda-img
+    {
+        position: inherit;
+        z-index: 0;
+
+        width: 100%;
+        height: 225px;
+    }
 
     .description-img
     {
         height: 420px;
+    }
+
+    #agenda-img_1140
+    {
+        display: none;
+    }
+
+    #agenda-img_1024
+    {
+        display: none;
+    }
+
+    #agenda-img_768
+    {
+        display: none;
+    }
+
+    #agenda-img_425
+    {
+        display: inherit;
     }
 }

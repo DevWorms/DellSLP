@@ -376,7 +376,15 @@ header img
     margin-top: 464px;
     padding: 43px 0 28px;
 
-    background: #fff;
+    background: transparent;
+}
+
+@media screen and (max-width: 800px)
+{
+    .form-registration
+    {
+        margin-top: 0;
+    }
 }
 
 .form-registration .form-group:after
@@ -759,4 +767,9 @@ footer .terms-link
 {
     box-sizing: border-box;
     width: 100%;
+}
+
+.special-row
+{
+    margin: 0;
 }
