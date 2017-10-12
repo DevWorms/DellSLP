@@ -310,7 +310,7 @@
     {
         width: 150px;
     }
-    
+
     .agenda-img
     {
         position: inherit;
@@ -343,5 +343,41 @@
     #agenda-img_425
     {
         display: inherit;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .overlay-div_des
+    {
+        left: 0;
+
+        height: 370px;
+        padding: 20px 10px;
+    }
+
+    .description-img
+    {
+        height: 370px;
+    }
+
+    .overlay-div_des .des-overlay_title
+    {
+        font-size: 14px;
+    }
+
+    .overlay-div_des .des-overlay_subtitle
+    {
+        font-size: 11px;
+    }
+
+    .overlay-div_des .des-overlay_p
+    {
+        font-size: 10px;
+    }
+
+    .agenda-img
+    {
+        height: 170px;
     }
 }
