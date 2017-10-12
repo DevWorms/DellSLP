@@ -519,6 +519,12 @@ table.table-special
         height: 300px;
         margin-top: -30px;
     }
+
+    [nvs-animation-type] {
+        animation: none;
+        transform: none;
+        transition-property: none;
+    }
 }
 
 @media screen and (max-width: 400px)
@@ -531,10 +537,9 @@ table.table-special
     }
 }
 
-@media (max-width: 500px) {
-    [nvs-animation-type] {
-        animation: none;
-        transform: none;
-        transition-property: none;
+@media screen and (max-width: 375px){
+    .container-lineup
+    {
+        margin: 30px 25px;
     }
 }
