@@ -112,6 +112,28 @@
     }
 }
 
+@media screen and (max-width: 380px)
+{
+    #agenda-titulo380max
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 381px)
+{
+    #agenda-titulo380min
+    {
+        display: none;        
+    }
+}
+
+.agenda-titulo-size
+{
+  color: white;
+  font-size: 26px;
+}
+
 
 .agenda-tamano-550
 {
