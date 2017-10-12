@@ -49,6 +49,18 @@
            while the background image is loading */
         background-color: #464646;
       }
+
+      @media screen and (max-width: 800px){
+        body{
+          background: url(o_templates/default/img/background768x706.png);
+        }
+      }
+
+      @media screen and (max-width: 500px){
+        body{
+          background: url(o_templates/default/img/background414x736.png);
+        }
+      }
     </style>
   </head>
 
@@ -145,7 +157,7 @@
         </div>
 
         <div class="col-xs-12 col-md-6 description-text">
-          <div class="col-xs-12" nvs-animation-type="bounceInRight">
+          <div class="col-xs-12 description-text2" nvs-animation-type="bounceInRight">
               <h3 align="center">
                 <span class="white">Transforme su fuerza de Trabajo con Dell EMC y sus Partners.</span>
               </h3>
@@ -190,10 +202,10 @@
 
       <div class="row logos-row">
         <div class="col-xs-6 col-md-offset-3 col-md-3">
-          <img class="img-responsive logo1-movil" nvs-animation-type="bounceInUp" src="o_templates/default/img/compu-care-logo2.png">
+          <img class="logo1-movil" nvs-animation-type="bounceInUp" src="o_templates/default/img/compu-care-logo2.png">
         </div>
         <div class="col-xs-6 col-md-3">
-          <img class="img-responsive" nvs-animation-type="bounceInUp" src="o_templates/default/img/Logo_SCRIPT_color.png">
+          <img nvs-animation-type="bounceInUp" src="o_templates/default/img/Logo_SCRIPT_color.png">
         </div>
       </div>
     </div>
@@ -260,95 +272,46 @@
   
     <!-- LINEUP SPEAKERS -->
     <div class="container">      
-      <div class="col-md-12" nvs-animation-type="fadeIn">          
-        <div class="caption-full">
-          <h3>LINE UP</h3>
-          <div class="col-xs-6 col-xs-offset-3">
-            <div nvs-animation-type="bounceInDown" class="line">
-              <span class="color-1"></span>
-              <span class="color-2"></span>
-              <span class="color-3"></span>
-              <span class="color-4"></span>
-              <span class="color-5"></span>
-            </div>
+               
+        <div class="row" align="center">
+          <h1 class="morado" nvs-animation-type="bounceInDown">LINE UP</h1>
+          <div nvs-animation-type="bounceInDown" class="line">
+            <span class="color-1"></span>
+            <span class="color-2"></span>
+            <span class="color-3"></span>
+            <span class="color-4"></span>
+            <span class="color-5"></span>
           </div>
         </div>
-        <div class="hexagon">
-          <p>SPEAKER</p>
-        </div>
-        <div class="row">          
-          <div class="col-md-6">                                              
+
+        <div class="row lineup-special_row">          
+          <div class="hexagon">
+            <p>Speaker</p>
+          </div>
+          <div class="col-md-offset-1 col-md-5">                                              
             <div class="container-lineup">                              
-              <p><b>JAVIER PEZÚA</b></p>                    
-              <p>CLIENT SOLUTIONS</p>                
-              <p>MARKETING MANAGER</p>                 
-              <br>  
-              <div class="container-descripcion">
-                <p>
-                  Javier tiene 18 años en la industria de TI desempeñando roles técnicos y comerciales. Se unio a Dell hace siete años. Antes de pertenecer al equipo de Soluciones Client fue Brand Manager de Servidores PowerEdge y luego Program Manager de Servicios de Implementacion y soporte. Javier estudió Ingeniería Informática en la POntífica Universidad Católica del Perú y posteriormente un MBA con concentracion en Marketing en Duke University.
-                </p> 
-            </div>                                         
+              <p align="right">
+                <b>JAVIER PEZÚA</b><br>                    
+                CLIENT SOLUTIONS<br>      
+                MARKETING MANAGER
+              </p>                 
+              
+              <p align="justify">
+                Javier tiene 18 años en la industria de TI desempeñando roles técnicos y comerciales. Se unio a Dell hace siete años. Antes de pertenecer al equipo de Soluciones Client fue Brand Manager de Servidores PowerEdge y luego Program Manager de Servicios de Implementacion y soporte. Javier estudió Ingeniería Informática en la POntífica Universidad Católica del Perú y posteriormente un MBA con concentracion en Marketing en Duke University.
+              </p> 
             </div>            
-          </div>          
-          <div>
-            <div class="col-md-4">
-              <div class="hexagono">
-                <div class="hexTop"></div>
-                <div class="hexBottom"></div>
-              </div>
-            </div>
+          </div>
+
+          <div class="col-md-5" align="center">
+            <img class="speaker-lineup_img" src="o_templates/default/img/speaker_slp300.png" alt="">
           </div>
         </div>
-      </div>
+
     </div>
     <!-- END LINEUP SPEAKERS -->
 
     <!-- AGENDA -->
-    <div class="container-special">
-      <div class="row">
-        <img class="img-responsive agenda-img" nvs-animation-type="fadeIn" src="o_templates/default/img/laedu.jpg">
-        <div class="col-xs-offset-6 col-xs-6">
-          <div class="overlay-div_agenda">            
-            <div class="row" align="center">
-              <h1 class="white" nvs-animation-type="bounceInDown">AGENDA</h1>
-              <div nvs-animation-type="bounceInDown" class="line">
-                <span class="color-1"></span>
-                <span class="color-2"></span>
-                <span class="color-3"></span>
-                <span class="color-4"></span>
-                <span class="color-5"></span>
-              </div>
-            </div>
-            <div class="row" align="center">
-              <div class="col-xs-offset-2 col-xs-8">
-                <table class="table table-condensed table-special">
-                  <tr class="color-1">
-                    <td>18:00 a 18:30</td>
-                    <td>Registro</td>
-                  </tr>
-                  <tr class="color-4">
-                    <td>18:30 a 19:30</td>
-                    <td>Mensaje de Bienvenida/Cena</td>
-                  </tr>
-                  <tr class="color-1">
-                    <td>19:30 a 20:20</td>
-                    <td>Speaker Dell EMC</td>
-                  </tr>
-                  <tr class="color-2">
-                    <td>20:30 a 21:00</td>
-                    <td>NetWorking Showroom</td>
-                  </tr>
-                  <tr class="color-1">
-                    <td>21:00</td>
-                    <td>Fin del Evento</td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- l -->
     <!-- END AGENDA -->
 
     <!-- FORM -->

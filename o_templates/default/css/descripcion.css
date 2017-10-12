@@ -21,8 +21,10 @@
     font-size: 23px;
 }
 
-.des-text{
+.des-text
+{
     font-size: 14px;
+
     color: white;
 }
 
@@ -33,15 +35,19 @@
     margin-left: -190px;
 }
 
-@media screen and (max-width: 1024px) {
-    .des-text{
+@media screen and (max-width: 1024px)
+{
+    .des-text
+    {
         font-size: 11px;
     }
 }
 
 
-@media screen and (max-width: 800px) {
-    .des-text{
+@media screen and (max-width: 800px)
+{
+    .des-text
+    {
         font-size: 15px;
     }
 }
@@ -88,22 +94,27 @@
     margin-bottom: -6px;
 }
 
-.container-mov {
-    padding-left: 15px;
+.container-mov
+{
     padding-right: 15px;
+    padding-left: 15px;
 }
 
-.logos-row {
+.logos-row
+{
     margin: 20px 0;
 }
 
-@media screen and (max-width: 500px){
-    .container-mov {
-        padding-left: 0px;
-        padding-right: 0px;
+@media screen and (max-width: 500px)
+{
+    .container-mov
+    {
+        padding-right: 0;
+        padding-left: 0;
     }
 
-    .logos-row {
+    .logos-row
+    {
         margin: 20px;
     }
 }
@@ -118,8 +129,10 @@
     margin-bottom: 10px;
 }
 
-table.table-special {
+table.table-special
+{
     font-size: 15px;
+
     margin-top: 70px;
 }
 
@@ -138,7 +151,8 @@ table.table-special {
     width: 400px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px)
+{
     .line
     {
         /*width: 100%;*/
@@ -146,7 +160,8 @@ table.table-special {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px)
+{
     .line
     {
         /*width: 100%;*/
@@ -185,154 +200,122 @@ table.table-special {
 
 .caption-full
 {
-    display: inline; 
+    display: inline;
+
+    text-align: center;
+
     color: #765292;
-    text-align: center;    
 }
 
 .container-lineup
-{   
-    margin-top: 20px;
+{
+    z-index: 0;
+
     margin-bottom: 60px;
-    padding: 15px 0 10px 0;       
-    background-color: #8E71A6; 
-    z-index: 0;       
+    padding: 15px 25px;
+
+    background-color: rgba(142, 113, 166, .8);
 }
 
 .container-lineup p
 {
-    text-align: right;
-    font-family: 'Roboto', sans-serif; 
-    color: #FAF9FB;
     font-size: 16px;
+
+    color: #faf9fb;
 }
 
 .container-descripcion p
 {
-    display: inline; 
-    color: #FAF9FB; 
-    text-align: right;
-    font-family: 'Roboto', sans-serif;
-}
-/*
-.hex p{
-    font-family: 'Roboto', sans-serif;
+    display: inline;
+
     text-align: justify;
-    color: #FAF9FB;
+
+    color: #faf9fb;
 }
-*/
+
+.lineup-special_row
+{
+    margin-top: -35px;
+}
+
+
 /*HEXAGONO TEXTO*/
-.hexagon {
-  position: relative;
-  width: 150px; 
-  height: 86.60px;
-  background-color: #64C7CC;
-  margin: 50px 43.30px -70px 43.30px;  
-  z-index: 100;
-  transform: rotate(90deg);
+.hexagon
+{
+    position: relative;
+    z-index: 100;
+    top: 43px;
+    left: 119px;
+
+    width: 150px;
+    height: 86.60px;
+
+    transform: rotate(90deg);
+
+    background-color: #64c7cc;
 }
 
 .hexagon p
 {
-    font-family: 'Roboto', sans-serif;
-    position: absolute;
-    color: #FAF9FB;
-    top: 15px;
-    left: 2.5px;
-    right: 5px;
-    text-align: center;
     font-size: 25px;
+
+    position: absolute;
+    top: 15px;
+    bottom: 8px;
+    left: 34.5px;
+
     transform: rotate(-90deg);
+    text-align: center;
+
+    color: #faf9fb;
 }
+
 .hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 75px solid transparent;
-  border-right: 75px solid transparent;
+.hexagon:after
+{
+    position: absolute;
+
+    width: 0;
+
+    content: '';
+
+    border-right: 75px solid transparent;
+    border-left: 75px solid transparent;
 }
-.hexagon:before {
-  bottom: 100%;
-  border-bottom: 43.30px solid #64C7CC;
+.hexagon:before
+{
+    bottom: 100%;
+
+    border-bottom: 43.30px solid #64c7cc;
 }
-.hexagon:after {
-  top: 100%;
-  width: 0;
-  border-top: 43.30px solid #64C7CC;
+.hexagon:after
+{
+    top: 100%;
+
+    width: 0;
+
+    border-top: 43.30px solid #64c7cc;
 }
 
-/*hexagono foto */
-.hexagono {
-  position: relative;
-  width: 300px; 
-  height: 173.21px;
-  margin: 86.60px 0;
-  background-image: url(o_templates/default/img/javier-pezua.jpg);
-  background-size: auto 334.8632px;
-  background-position: center;
-  border-left: solid 5px #E4B43B;
-  border-right: solid 5px #E4B43B;
-  transform: rotate(90deg);
+.speaker-lineup_img
+{
+    width: 350px;
+    height: 350px;
+    margin-top: -30px;
 }
 
-.hexTop,
-.hexBottom {
-  position: absolute;
-  z-index: 1;
-  width: 212.13px;
-  height: 212.13px;
-  overflow: hidden;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
-  background: inherit;
-  left: 38.93px;
-}
 
-/*counter transform the bg image on the caps*/
-.hexTop:after,
-.hexBottom:after {
-  content: "";
-  position: absolute;
-  width: 290.0000px;
-  height: 167.4315780649915px;
-  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-83.7158px);
-  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-83.7158px);
-  transform:          rotate(45deg) scaleY(1.7321) translateY(-83.7158px);
-  -webkit-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  transform-origin: 0 0;
-  background: inherit;
-}
+@media screen and (max-width: 500px) {
+    .hexagon {
+        display: none;
+    }
 
-.hexTop {
-  top: -106.0660px;
-  border-top: solid 7.0711px #E4B43B;
-  border-right: solid 7.0711px #E4B43B;
-}
+    .lineup-special_row {
+        margin-top: 0;
+    }
 
-.hexTop:after {
-  background-position: center top;
-}
-
-.hexBottom {
-  bottom: -106.0660px;
-  border-bottom: solid 7.0711px #E4B43B;
-  border-left: solid 7.0711px #E4B43B;
-}
-
-.hexBottom:after {
-  background-position: center bottom;
-}
-
-.hexagono:after {
-  content: "";
-  position: absolute;
-  top: 2.8868px;
-  left: 0;
-  width: 290.0000px;
-  height: 167.4316px;
-  z-index: 2;
-  background: inherit;
+    .container-lineup {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
 }

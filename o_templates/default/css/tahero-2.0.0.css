@@ -21,9 +21,9 @@
 
 html
 {
-    width: 100%;
     font-family: 'Roboto', sans-serif !important;
 
+    width: 100%;
 }
 
 body
@@ -152,7 +152,7 @@ header img
 
     text-align: justify;
 
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, .5);
 }
 
 .description p
@@ -164,7 +164,7 @@ header img
 
     margin-bottom: 23px;
 
-    color: #FFF;
+    color: #fff;
 }
 
 .description-text
@@ -172,16 +172,31 @@ header img
     padding: 20px 0;
 }
 
-@media screen and (max-width: 1024px){
-    .description-text {
+@media screen and (max-width: 1024px)
+{
+    .description-text
+    {
         padding: 10px 0 15px 0;
     }
 }
 
 @media screen and (max-width: 800px)
 {
-    .description-text {
+    .description-text
+    {
         padding: 10px 0 30px 0;
+    }
+    .description-text2
+    {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .description-text2
+    {
+        padding: 0 40px;
     }
 }
 
@@ -202,13 +217,15 @@ header img
 }
 
 /* LOGO */
-.logos, .lineup
+.logos,
+.lineup
 {
     background: transparent;
 }
 
-.detalles {
-    background-color: #91BEB9;
+.detalles
+{
+    background-color: #91beb9;
 }
 
 .subtitle-border
@@ -241,11 +258,12 @@ header img
     vertical-align: middle;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px)
+{
     .logos .img-responsive
     {
         margin: 0;
-    }  
+    }
 }
 
 .event-title
@@ -596,7 +614,8 @@ footer
     font-weight: 300;
 
     padding-bottom: 15px;
-background: rgba(0, 0, 0, 0.5);
+
+    background: rgba(0, 0, 0, .5);
 }
 
 footer,
@@ -642,7 +661,7 @@ footer .img-responsive
 
 .text-white
 {
-    color: #FFF;
+    color: #fff;
 }
 
 .footer-titles-colums
@@ -735,11 +754,8 @@ footer .terms-link
     width: 100%;
 }
 
-.container-special {
-    margin-right: auto;
-    margin-left: auto; 
-    
-    width: 100%;  
-
+.container-special
+{
     box-sizing: border-box;
+    width: 100%;
 }
