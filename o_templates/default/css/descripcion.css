@@ -1,3 +1,95 @@
+/* Agenda */
+
+@media screen and (max-width: 834px)
+{
+    #agenda-table
+    {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 835px)
+{
+  #agenda-table-700
+  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px)
+{
+    #agenda-table-700
+    {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 701px)
+{
+  #agenda-table-movil
+  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px)
+{
+    #agenda-table-movil
+    {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 551px)
+{
+  #agenda-table-movil2
+  {
+    display: none;
+  }
+}
+ 
+@media screen and (max-width: 433px)
+{
+    #agenda-table-movil2
+    {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 434px)
+{
+  #agenda-table-movil3
+  {
+    display: none;
+  }
+}
+
+.table-special-movil700
+{
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+.table-special-movil
+{
+  font-size: 14px;
+  margin-top: 25px;/*
+  margin-left: -3px;*/
+}
+
+.table-special-movil2
+{
+  font-size: 12px; 
+  margin-top: 25px;
+  margin-left: -40%; 
+}
+
+.table-special-movil3
+{
+  font-size: 8px;
+  margin-top: 25px;
+  margin-left: -66%;
+}
 /*Media 1199 de la descripción (Títulol)*/
 
 @media screen and (max-width: 1199px)
