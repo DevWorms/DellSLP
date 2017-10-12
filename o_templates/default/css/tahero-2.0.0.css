@@ -35,6 +35,36 @@ body
     background: #000;
 }
 
+@media screen and (max-width: 500px)
+{
+    h1,
+    .h1
+    {
+        font-size: 30px;
+    }
+
+    h3,
+    .h3
+    {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    h1,
+    .h1
+    {
+        font-size: 25px;
+    }
+
+    h3,
+    .h3
+    {
+        font-size: 16px;
+    }
+}
+
 a
 {
     color: #71c1e9;
@@ -384,6 +414,14 @@ header img
     .form-registration
     {
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .form-registration
+    {
+        margin-top: -25px;
     }
 }
 

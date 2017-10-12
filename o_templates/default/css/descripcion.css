@@ -2,36 +2,40 @@
 
 .agenda-titulo-size
 {
-  color: white;
-  font-size: 26px;
+    font-size: 26px;
+
+    color: white;
 }
 
 
 .agenda-tamano-550
 {
-  width: 868px;
-  height: auto;
-  margin-top: 66px;
-  margin-left: -308px;
-  position: absolute;
+    position: absolute;
+
+    width: 868px;
+    height: auto;
+    margin-top: 66px;
+    margin-left: -308px;
 }
 
 .agenda-tamano-750
 {
-  width: 868px;
-  height: auto;
-  margin-top: 66px;
-  margin-left: -126px;
-  position: absolute;
+    position: absolute;
+
+    width: 868px;
+    height: auto;
+    margin-top: 66px;
+    margin-left: -126px;
 }
 
 .agenda-tamano-885
 {
-  width: 868px;
-  height: auto;
-  margin-top: 66px;
-  margin-left: -27px;
-  position: absolute;
+    position: absolute;
+
+    width: 868px;
+    height: auto;
+    margin-top: 66px;
+    margin-left: -27px;
 }
 
 .table-special-movil700
@@ -115,6 +119,22 @@
     .des-text
     {
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .des-text
+    {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .des-text
+    {
+        font-size: 12px;
     }
 }
 
@@ -225,7 +245,8 @@ table.table-special
         width: 350px;
     }
 
-    table.table-special {
+    table.table-special
+    {
         margin-top: 30px;
     }
 }
@@ -238,8 +259,10 @@ table.table-special
         width: 300px;
     }
 
-    table.table-special {
+    table.table-special
+    {
         font-size: 13px;
+
         margin-top: 30px;
     }
 }
@@ -301,6 +324,22 @@ table.table-special
     font-size: 16px;
 
     color: #faf9fb;
+}
+
+@media screen and (max-width: 500px)
+{
+    .container-lineup p
+    {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .container-lineup p
+    {
+        font-size: 12px;
+    }
 }
 
 .container-descripcion p
@@ -393,18 +432,22 @@ table.table-special
     margin-top: -30px;
 }
 
-.agenda-max {
+.agenda-max
+{
     display: inherit;
 }
 
-.agenda-min {
+.agenda-min
+{
     display: none;
 }
 
-.container-agenda {
+.container-agenda
+{
     width: 100%;
     height: auto;
     padding: 20px 25px;
+
     color: white;
     background-color: rgba(255,0,0,.4);
 }
@@ -442,11 +485,13 @@ table.table-special
         margin: 30px 40px;
     }
 
-    .agenda-max {
+    .agenda-max
+    {
         display: none;
     }
 
-    .agenda-min {
+    .agenda-min
+    {
         display: inherit;
     }
 }
@@ -470,6 +515,18 @@ table.table-special
 
     .speaker-lineup_img
     {
+        width: 300px;
+        height: 300px;
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .speaker-lineup_img
+    {
+        width: 250px;
+        height: 250px;
         margin-top: -30px;
     }
 }
