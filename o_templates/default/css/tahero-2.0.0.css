@@ -355,6 +355,7 @@ header img
 /* FORM */
 .form-registration
 {
+    margin-top: 464px;
     padding: 43px 0 28px;
 
     background: #fff;
