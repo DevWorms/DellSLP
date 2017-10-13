@@ -237,6 +237,16 @@ table.table-special
     width: 400px;
 }
 
+@media screen and (max-width: 1024px)
+{
+    table.table-special
+    {
+        font-size: 15px;
+
+        margin-top: 50px;
+    }
+}
+
 @media screen and (max-width: 800px)
 {
     .line
@@ -445,11 +455,24 @@ table.table-special
 .container-agenda
 {
     width: 100%;
-    height: auto;
-    padding: 20px 25px;
+    height: 358px;
+    padding: 20px 0;
 
     color: white;
-    background-color: rgba(255,0,0,.4);
+    background-color: #ce2046;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .container-agenda
+    {
+        width: 100%;
+        height: 270px;
+        padding: 0;
+
+        color: white;
+        background-color: #ce2046;
+    }
 }
 
 @media screen and (max-width: 800px)
@@ -494,6 +517,12 @@ table.table-special
     {
         display: inherit;
     }
+
+    .container-agenda
+    {
+        height: 250px;
+        padding: 13px 0;
+    }
 }
 
 @media screen and (max-width: 500px)
@@ -520,10 +549,17 @@ table.table-special
         margin-top: -30px;
     }
 
-    [nvs-animation-type] {
-        animation: none;
-        transform: none;
+    .container-agenda
+    {
+        height: 230px;
+        padding: 10px 0;
+    }
+
+    [nvs-animation-type]
+    {
         transition-property: none;
+        transform: none;
+        animation: none;
     }
 }
 
@@ -537,9 +573,16 @@ table.table-special
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px)
+{
     .container-lineup
     {
         margin: 30px 25px;
+    }
+
+    .container-agenda
+    {
+        height: 210px;
+        padding: 0 0;
     }
 }

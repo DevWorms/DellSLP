@@ -403,7 +403,6 @@ header img
 /* FORM */
 .form-registration
 {
-    margin-top: 464px;
     padding: 43px 0 28px;
 
     background: transparent;
@@ -722,6 +721,23 @@ footer .terms-link
     font-size: 18px;
 }
 
+.container-special
+{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.special-row
+{
+    margin: 0;
+}
+
+.special-row-agenda
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+
 /* */
 @media (min-width: 1200px)
 {
@@ -768,6 +784,15 @@ footer .terms-link
     }
 }
 
+@media (max-width: 800px)
+{
+    .special-row-agenda
+    {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
 @media (max-width: 400px)
 {
     .description-hashtag,
@@ -799,15 +824,4 @@ footer .terms-link
     overflow: hidden;
 
     width: 100%;
-}
-
-.container-special
-{
-    box-sizing: border-box;
-    width: 100%;
-}
-
-.special-row
-{
-    margin: 0;
 }

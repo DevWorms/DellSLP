@@ -151,31 +151,34 @@
 
 .agenda-img
 {
-    position: absolute;
-    z-index: 1;
-
     width: 100%;
-    height: 500px;
 }
 
 #agenda-img_1140
 {
     display: inherit;
+
+    height: 358px;
 }
 
 #agenda-img_1024
 {
     display: none;
+
+    height: 270px;
 }
 
 #agenda-img_768
 {
     display: none;
+
+    height: 280px;
 }
 
 #agenda-img_425
 {
     display: none;
+    height: 200px;
 }
 
 @media screen and (max-width: 1200px)
@@ -239,7 +242,6 @@
         z-index: 0;
 
         width: 100%;
-        height: 330px;
     }
 
     #agenda-img_1140
@@ -377,6 +379,11 @@
     }
 
     .agenda-img
+    {
+        height: 170px;
+    }
+
+    #agenda-img_425
     {
         height: 170px;
     }
